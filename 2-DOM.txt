@@ -1,0 +1,89 @@
+
+     1、获取页面元素
+
+     常规元素：
+        语法1: document.getElementById('box')  只能找到一个
+        语法2: document.getElementsByTagName('div') 获取的是所有标签名叫div (获取的是一组数据，伪数组)    
+                document.getElementsByTagName('div')[0]  获取的是所有div的第一个   
+        语法3:    
+                document.getElementsByClassName('box')获取的是所有类名叫box的(获取的是一组数据，伪数组)    
+                document.getElementsByClassName('box')[0] 获取的是所有div的第一个  
+        语法4:
+                document.getElementsByName('text') 获取的是所有name值叫text的 ( 获取的是一组数据，伪数组)
+                                                    获取页面中所有name值叫text的元素
+                document.getElementsByName('text')[0]   获取页面中所有name值叫text的第一个元素  
+        语法5:
+            通过选择器( .box   #box   ul>li)来获取页面元素
+            document.querySelector('.box') 获取页面中类名叫box的第一个
+            document.querySelectorAll('.box') 获取页面中所有类名叫box的元素
+      非常规的：
+        document.documentElement   ---》获取html标签          
+        document.body   ---》获取body标签          
+        document.title   ---》获取title标签          
+        document.head   ---》获取head标签          
+            
+    
+
+     2、 操作页面元素
+
+
+       2.1 操作元素的内容
+          支持标签
+            获取元素的内容：对象（获取的元素）.innerHTML
+            设置元素的内容：对象（获取的元素）.innerHTML = 
+
+          不支持标签
+            获取元素的内容：对象（获取的元素）.innerText
+            设置元素的内容：对象（获取的元素）.innerText = 
+
+          针对于表单控件：
+            获取元素的内容：对象（获取的元素）.value
+            设置元素的内容：对象（获取的元素）.value =
+
+          不常用：<div>张三</div>
+            获取元素的内容：对象（获取的元素）.outerHTML   标签的内容+标签本身（是一个字符串形式） <div>张三</div>
+            设置元素的内容：对象（获取的元素）.outerHTML = 
+
+        2.2 操作元素的样式
+            
+            设置样式： 对象（获取的元素）.style.属性名=属性值       获取样式：对象（获取的元素）.style.属性名 （没啥用）
+                      对象（获取的元素）.className = '类名'
+
+
+                      对象（获取的元素）.classList.add('类名')
+                      对象（获取的元素）.classList.remove('类名')
+        
+        2.3 操作元素的属性：
+            <div id='' xx='' class='' aa=''></div>
+            <img src='' y=''>
+
+            属性分为固有属性（元素自身携带的属性）和自定义属性（aa，xx，y）
+
+            自定义属性的设置和修改   <div></div>
+            设置自定义属性：
+               对象（获取的元素）.setAttribute('属性名','属性值')
+            获取
+               对象（获取的元素）.getAttribute('属性名')
+            删除
+               对象（获取的元素）.removeAttribute('属性名')
+
+
+
+          <div index="1"  id="box" class='box'></div>
+
+          <img src=''>
+          <input type='text' value='neir'>
+
+            设置(修改)固有属性：
+                对象（获取的元素）.属性名 = '属性值'  oImg.src = '图片地址'
+            获取固有属性：
+                对象（获取的元素）.属性名    oImg.src
+
+                oIpt.value
+
+
+            
+
+
+
+ 
