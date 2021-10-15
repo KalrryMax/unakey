@@ -1,0 +1,167 @@
+/* <!-- 06_CSS_footer01 --> */
+
+.site-footer .container {
+    width: 1226px;
+    margin: auto;
+}
+
+.site-footer .container .footer-service {
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.site-footer .container .footer-service ul {
+    width: 100%;
+    display: flex;
+}
+
+.site-footer .container .footer-service li {
+    color: #333;
+    width: 19.8%;
+    height: 25px;
+    border-right: 1px solid #dddddd;
+}
+
+.site-footer .container .footer-service li:last-child {
+    border: none;
+}
+
+.site-footer .container .footer-service li a {
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #616161;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-footer .container .footer-service li a:hover {
+    color: orange;
+    transition: .3s;
+}
+
+.site-footer .container .footer-service li a .iconfont {
+    font-size: 25px;
+}
+
+.site-footer .container .footer-service li a .f-title {
+    font-size: 16px;
+}
+
+
+/*dl-dd-dt------------------------ */
+
+.site-footer .footer-links {
+    padding: 40px 0;
+    height: 170px;
+}
+
+.site-footer .container .footer-links .col-links {
+    color: #333;
+    float: left;
+    width: 160px;
+    margin: 0;
+}
+
+.site-footer .container .footer-links dt {
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+
+.site-footer .container .footer-links dd {
+    margin: 10px 0 0;
+    font-size: 12px;
+}
+
+.site-footer .container .footer-links dd a {
+    color: #333;
+    margin: 10px 0 0;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: #757575;
+}
+
+.site-footer .container .col-contact {
+    float: right;
+    width: 251px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+
+.site-footer .container .col-contact .phone {
+    text-align: center;
+    margin: 0 0 5px 0;
+    font-size: 22px;
+    color: #ff6700;
+}
+
+.site-footer .container .col-contact p {
+    text-align: center;
+    color: #616161;
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+
+.site-footer .container .col-contact .btn-line-primary {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    border-color: #ff6700;
+    background: #fff;
+    color: #ff6700;
+}
+
+.site-footer .container .col-contact .follow {
+    text-align: center;
+    color: #616161;
+    font-size: 12px;
+    margin-top: 10px;
+    position: relative;
+}
+
+
+/* 微博、微信图片 */
+
+.site-footer .col-contact .follow {
+    height: 22px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-footer .col-contact .follow .d-p {
+    font-size: 12px;
+}
+
+.site-footer .col-contact .follow .wb .icon-xinlang {
+    font-size: 30px;
+    color: grey;
+}
+
+.site-footer .col-contact .follow .wx .icon-weixin {
+    color: grey;
+    font-size: 25px;
+}
+
+.site-footer .col-contact .follow .wb:hover .icon-xinlang {
+    color: orange;
+    transition: .3s;
+}
+
+.site-footer .col-contact .follow .wx:hover .icon-weixin {
+    color: orange;
+    transition: .3s;
+}

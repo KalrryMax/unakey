@@ -1,0 +1,572 @@
+.site-page-main {
+    height: 5060px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    margin: auto;
+}
+
+.site-page-main .container-main {
+    width: 1226px;
+    height: 860px;
+    margin: auto;
+}
+
+.site-page-main .container-main .container-banner {
+    height: 120px;
+    padding: 22px 0;
+}
+
+.site-page-main .container-main .container-banner a img {
+    width: 1226px;
+    margin: auto;
+}
+
+.site-page-main .container-main .product-main {
+    width: 1226px;
+    height: 628px;
+    margin: auto;
+}
+
+.site-page-main .container-main h2 {
+    height: 58px;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+.site-page-main .container-main .info-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-page-main .container-main .product-main .info-nav .more {
+    width: 92px;
+    height: 58px;
+}
+
+.site-page-main .container-main .product-main .info-nav .more a {
+    line-height: 58px;
+    text-align: right;
+    display: block;
+    color: grey;
+    font-size: 16px;
+}
+
+.site-page-main .container-main .product-main .info-nav .more a .icon-youjiantou-tianchong {
+    font-size: 18px;
+}
+
+.site-page-main .container-main .product-main .info-nav .more a:hover {
+    color: orange;
+    transition: .5s;
+}
+
+
+/* <!-- 产品信息 --> */
+
+.site-page-main .container-main .product-main .product-info {
+    width: 1226px;
+    height: 614px;
+    position: relative;
+}
+
+
+/* <!-- 左侧主图 --> */
+
+.site-page-main .container-main .product-main .product-info .product-info-left img {
+    width: 234px;
+    height: 614px;
+    position: absolute;
+    left: 0;
+}
+
+.site-page-main .container-main .product-main .product-info .product-info-left img:hover {
+    box-shadow: 0px 10px 20px 0px rgb(194, 194, 194);
+    transform: translateY(-2px);
+    transition: .5s;
+}
+
+
+/* <!-- 右侧主图 --> */
+
+.site-page-main .container-main .product-main .product-info .product-info-right {
+    width: 978px;
+    height: 614px;
+    /* background-color: rgb(177, 255, 174); */
+    position: absolute;
+    right: 0;
+}
+
+.site-page-main .container-main .product-main .product-info .product-info-right ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.site-page-main .container-main .product-main .product-info .product-info-right ul li {
+    width: 234px;
+    height: 300px;
+    margin-bottom: 14px;
+    background-color: rgb(255, 255, 255);
+}
+
+.site-page-main .container-main .product-main .product-info .product-info-right ul li:hover {
+    box-shadow: 0px 10px 20px 0px rgba(161, 161, 161, 0.603);
+    transform: translateY(-2px);
+    transition: .5s;
+}
+
+.site-page-main .container-main .product-main .product-info .product-info-right a {
+    display: block;
+    /* background-color: rgb(221, 166, 166); */
+    list-style-type: none;
+    color: #757575;
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+/*产品info */
+
+.site-page-main .container-main .product-main .product-info .product-info-right a img {
+    margin: 0 auto 20px;
+    color: #757575;
+    border: 0;
+    width: 160px;
+    height: 160px;
+}
+
+.site-page-main .container-main .product-main .product-info .product-info-right a .product-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 10px 2px;
+}
+
+.site-page-main .container-main .product-main .product-info .product-info-right a .title-describe {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.site-page-main .container-main .product-main .product-info .product-info-right a .price {
+    text-align: center;
+    color: #ff6700;
+    margin: 0 10px 14px;
+}
+
+
+/* <!-- 内容页主图02 --> */
+
+.site-page-main .container-main-02 {
+    width: 1226px;
+    height: 700px;
+    margin: auto;
+}
+
+.site-page-main .container-main-02 .container-banner {
+    height: 120px;
+    padding: 22px 0;
+}
+
+.site-page-main .container-main-02 .container-banner a img {
+    width: 1226px;
+    margin: auto;
+}
+
+.site-page-main .container-main-02 .product-main {
+    width: 1226px;
+    height: 628px;
+    margin: auto;
+}
+
+.site-page-main .container-main-02 h2 {
+    height: 58px;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+.site-page-main .container-main-02 .info-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-page-main .container-main-02 .product-main .info-nav .more {
+    display: flex;
+    height: 58px;
+    /* background-color: rgb(255, 161, 161); */
+}
+
+.site-page-main .container-main-02 .product-main .info-nav .more li {
+    line-height: 58px;
+    text-align: right;
+    color: grey;
+    font-size: 16px;
+    margin-left: 30px;
+    height: 45px;
+}
+
+.site-page-main .container-main-02 .product-main .info-nav .more li:hover {
+    border-bottom: 2px solid orange;
+    color: orange;
+}
+
+.site-page-main .container-main-02 .product-main .info-nav .more a .icon-youjiantou-tianchong {
+    font-size: 18px;
+}
+
+.site-page-main .container-main-02 .product-main .info-nav .more a:hover {
+    color: orange;
+    transition: .5s;
+}
+
+
+/* <!-- 产品信息 --> */
+
+.site-page-main .container-main-02 .product-main .product-info {
+    width: 1226px;
+    height: 614px;
+    position: relative;
+}
+
+
+/* <!-- 左侧主图 --> */
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-left {
+    width: 234px;
+    height: 614px;
+    position: absolute;
+    left: 0;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-left .img-01 {
+    width: 234px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-left .img-02 {
+    width: 234px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-left img:hover {
+    box-shadow: 0px 10px 20px 0px rgb(194, 194, 194);
+    transform: translateY(-2px);
+    transition: .5s;
+}
+
+
+/* <!-- 右侧主图 --> */
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right {
+    width: 978px;
+    height: 614px;
+    /* background-color: rgb(177, 255, 174); */
+    position: absolute;
+    right: 0;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul li {
+    width: 234px;
+    height: 300px;
+    margin-bottom: 14px;
+    background-color: rgb(255, 255, 255);
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul li:hover {
+    box-shadow: 0px 10px 20px 0px rgba(161, 161, 161, 0.603);
+    transform: translateY(-2px);
+    transition: .5s;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right a {
+    display: block;
+    /* background-color: rgb(221, 166, 166); */
+    list-style-type: none;
+    color: #757575;
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test {
+    width: 234px;
+    height: 300px;
+    margin-bottom: 14px;
+    /* background-color: rgb(252, 191, 191); */
+    position: relative;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test .li-test-01 {
+    width: 234px;
+    height: 143px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test .li-test-02 {
+    width: 234px;
+    height: 143px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test .li-test-01:hover {
+    box-shadow: 0px 10px 20px 0px rgba(161, 161, 161, 0.603);
+    transform: translateY(-2px);
+    transition: .5s;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test .li-test-01 h3 {
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    width: 84px;
+    font-size: 14px;
+    color: #333;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test .li-test-01 p {
+    position: absolute;
+    top: 110px;
+    left: 35px;
+    font-size: 14px;
+    color: orange;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test .li-test-01 img {
+    width: 80px;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test .li-test-01 .icon-youjiantou {
+    position: absolute;
+    font-size: 56px;
+    color: orange;
+    top: 32px;
+    right: 40px;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test .li-test-02:hover {
+    box-shadow: 0px 10px 20px 0px rgba(161, 161, 161, 0.603);
+    transform: translateY(-2px);
+    transition: .5s;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test .li-test-02 h3 {
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    font-size: 18px;
+    color: #333;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test .li-test-02 h6 {
+    position: absolute;
+    top: 78px;
+    left: 35px;
+    font-size: 10px;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right ul .li-test .li-test-02 .icon-youjiantou {
+    position: absolute;
+    font-size: 56px;
+    color: orange;
+    top: 32px;
+    right: 40px;
+}
+
+
+/*产品info */
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right a img {
+    margin: 0 auto 20px;
+    color: #757575;
+    border: 0;
+    width: 160px;
+    height: 160px;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right a .product-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 10px 2px;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right a .title-describe {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.site-page-main .container-main-02 .product-main .product-info .product-info-right a .price {
+    text-align: center;
+    color: #ff6700;
+    margin: 0 10px 14px;
+}
+
+.site-page-main .container-main-03 {
+    width: 1226px;
+    height: 170px;
+    margin: auto;
+}
+
+.site-page-main .container-main-03 .container-banner {
+    height: 120px;
+    padding: 22px 0;
+}
+
+.site-page-main .container-main-03 .container-banner a img {
+    width: 1226px;
+    margin: auto;
+}
+
+
+/* 视频区域 */
+
+.site-page-main .container-main-04 {
+    width: 1226px;
+    height: 360px;
+    margin: auto;
+}
+
+.site-page-main .container-main-04 .product-main {
+    width: 1226px;
+    height: 360px;
+    margin: auto;
+}
+
+.site-page-main .container-main-04 h2 {
+    height: 58px;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+.site-page-main .container-main-04 .info-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-page-main .container-main-04 .product-main .info-nav .more {
+    width: 92px;
+    height: 58px;
+}
+
+.site-page-main .container-main-04 .product-main .info-nav .more a {
+    line-height: 58px;
+    text-align: right;
+    display: block;
+    color: grey;
+    font-size: 16px;
+}
+
+.site-page-main .container-main-04 .product-main .info-nav .more a .icon-youjiantou-tianchong {
+    font-size: 18px;
+}
+
+.site-page-main .container-main-04 .product-main .info-nav .more a:hover {
+    color: orange;
+    transition: .5s;
+}
+
+.site-page-main .container-main-04 .product-main .product-video ul {
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    width: 1226px;
+    height: 285px;
+    /* background-color: rgb(163, 157, 157); */
+}
+
+.site-page-main .container-main-04 .product-main .product-video ul li {
+    color: #333;
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 285px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+    transition: all .2s linear;
+    margin-left: 0;
+}
+
+.site-page-main .container-main-04 .product-main .product-video ul li:hover {
+    box-shadow: 0px 10px 20px 0px rgba(161, 161, 161, 0.603);
+    transform: translateY(-2px);
+    transition: .5s;
+}
+
+.site-page-main .container-main-04 .product-main .product-video ul li img {
+    text-align: center;
+    color: #ff6700;
+    border: 0;
+    width: 296px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.site-page-main .container-main-04 .product-main .product-video ul li h3 {
+    margin: 0 14px 6px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.site-page-main .container-main-04 .product-main .product-video ul li p {
+    text-align: center;
+    height: 18px;
+    margin: 0 14px;
+    font-size: 12px;
+    color: #b0b0b0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

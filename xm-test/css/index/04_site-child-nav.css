@@ -1,0 +1,87 @@
+/* 子导航栏04_site-child-nav 就是轮播图下的4张图 */
+
+.site-child-nav {
+    width: 1226px;
+    height: 170px;
+    /* background-color: rgb(206, 206, 206); */
+    margin: 14px auto 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 26px;
+}
+
+.site-child-nav .site-nav-01 {
+    width: 234px;
+    height: 170px;
+    background-color: rgb(94, 87, 81);
+    box-sizing: border-box;
+    padding: 3px;
+}
+
+.site-child-nav .site-nav-01 .nav-01-ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.site-child-nav .site-nav-01 .nav-01-ul h6 {
+    width: 1px;
+    height: 70px;
+    background-color: rgb(121, 114, 107);
+}
+
+.site-child-nav .site-nav-01 .nav-01-ul h5 {
+    width: 70px;
+    height: 1px;
+    background-color: rgb(121, 114, 107);
+}
+
+.site-child-nav .site-nav-01 .nav-01-ul .nav-01-li {
+    box-sizing: border-box;
+    padding: 0 3px;
+    width: 74px;
+    height: 81px;
+    text-align: center;
+    /* background-color: rgb(180, 180, 180); */
+}
+
+.site-child-nav .site-nav-01 .nav-01-ul .nav-01-li a {
+    color: rgb(177, 177, 177);
+}
+
+.site-child-nav .site-nav-01 .nav-01-ul .nav-01-li a p {
+    font-size: 12px;
+}
+
+.site-child-nav .site-nav-01 .nav-01-ul .nav-01-li:hover a {
+    color: white;
+}
+
+.site-child-nav .site-nav-01 .nav-01-ul .nav-01-li a .iconfont {
+    font-size: 35px;
+}
+
+.site-child-nav .site-nav-02 {
+    width: 316px;
+    height: 170px;
+    background-color: rgb(248, 184, 184);
+    background: url(../../img/child-nav/1.jpeg);
+    background-size: 100%;
+}
+
+.site-child-nav .site-nav-03 {
+    width: 316px;
+    height: 170px;
+    background-color: rgb(255, 220, 220);
+    background: url(../../img/child-nav/2.jpeg);
+    background-size: 100%;
+}
+
+.site-child-nav .site-nav-04 {
+    width: 316px;
+    height: 170px;
+    background-color: rgb(255, 220, 220);
+    background: url(../../img/child-nav/3.png);
+    background-size: 100%;
+}

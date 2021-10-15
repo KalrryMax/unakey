@@ -1,0 +1,395 @@
+/* 导航条盒子 */
+
+.site-topbar {
+    position: relative;
+    z-index: 30;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+
+
+/* 导航条内容 */
+
+.site-topbar .container {
+    font-size: 12px;
+    color: #b0b0b0;
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* 左侧导航条 */
+
+.site-topbar .container .topbar-nav {
+    font-size: 12px;
+    color: #b0b0b0;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.site-topbar .container .topbar-nav a {
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.site-topbar .container .topbar-nav a:hover {
+    color: white;
+}
+
+.site-topbar .container .topbar-nav .topbar-download {
+    position: relative;
+}
+
+.site-topbar .container .topbar-nav .topbar-download em {
+    position: absolute;
+    bottom: 0;
+    left: 14px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #ffffff;
+    display: none;
+}
+
+.site-topbar .container .topbar-nav .topbar-download:hover em {
+    display: block;
+}
+
+.site-topbar .container .topbar-nav .topbar-download .appcode {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 40px;
+    left: -40px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px 1px #919191c0;
+    border-radius: 5px;
+}
+
+.site-topbar .container .topbar-nav .topbar-download:hover .appcode {
+    display: block;
+    color: grey;
+    text-align: center;
+}
+
+.site-topbar .container .topbar-nav .sep {
+    font-size: 12px;
+    line-height: 40px;
+    font-family: sans-serif;
+    margin: 0 .3em;
+    color: #424242;
+}
+
+
+/* 右侧注册登录 */
+
+.site-topbar .container .topbar-info {
+    font-size: 12px;
+    color: #b0b0b0;
+    position: relative;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+
+.site-topbar .container .topbar-info a {
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.site-topbar .container .topbar-info a:hover {
+    color: white;
+}
+
+.site-topbar .container .topbar-info .sep_1 {
+    font-size: 12px;
+    line-height: 40px;
+    font-family: sans-serif;
+    color: #424242;
+    margin: 0;
+}
+
+
+/* 右侧购物车 */
+
+.site-topbar .container .topbar-cart {
+    color: #b0b0b0;
+    position: relative;
+    float: right;
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    transition: all .2s;
+    font-size: 12px;
+}
+
+.site-topbar .container .topbar-cart .cart-mini {
+    font-size: 12px;
+    position: relative;
+    z-index: 32;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    background: #424242;
+}
+
+.site-topbar .container .topbar-cart .cart-mini .cart-box {
+    width: 350px;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    box-shadow: 0 5px 8px 0 rgba(41, 41, 41, 0.199);
+    display: none;
+}
+
+.site-topbar .container .topbar-cart .cart-mini .cart-box p {
+    color: rgb(88, 88, 88);
+    line-height: 100px;
+    font-size: 12px;
+}
+
+
+/* 不能写死 */
+
+.site-topbar .container .topbar-cart .cart-mini .icon-gouwuche {
+    position: absolute;
+    top: 6px;
+    left: 15px;
+}
+
+.site-topbar .container .topbar-cart .cart-mini .gouwuche {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 12px;
+}
+
+.site-topbar .container .topbar-cart .cart-mini:hover {
+    background-color: #fff;
+}
+
+.site-topbar .container .topbar-cart:hover a {
+    color: rgb(255, 134, 53);
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------------- */
+
+
+/* 头部盒子位置 */
+
+.site-header {
+    position: relative;
+    color: #333;
+    z-index: 20;
+    height: 100px;
+    /* background-color: rgb(148, 148, 148); */
+}
+
+.site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1226px;
+    height: 100px;
+    margin: auto;
+    /* background-color: rgb(245, 140, 140); */
+}
+
+.site-header .container .header-logo .a-logo {
+    height: 100px;
+}
+
+.site-header .container .header-logo .a-logo .ilogo {
+    width: 56px;
+    height: 56px;
+}
+
+.site-header .container .header-nav {
+    width: 850px;
+    height: 100px;
+    box-sizing: border-box;
+    padding-right: 30px;
+    /* background-color: wheat; */
+}
+
+.site-header .container .header-nav .header-ul {
+    display: flex;
+    float: right;
+    background-color: #fff;
+}
+
+.site-header .container .header-nav .header-li {
+    box-sizing: border-box;
+    padding: 0px 10px 0px;
+}
+
+.site-header .container .header-nav .header-li .li-a {
+    display: block;
+    line-height: 100px;
+    height: 100px;
+    position: relative;
+    color: #333333;
+    font-size: 16px;
+}
+
+
+/* 二级菜单 */
+
+.site-header .child-two {
+    position: absolute;
+    z-index: 30;
+    height: 230px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #ffffff;
+    display: none;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(228, 228, 228);
+    box-shadow: 0px 4px 6px 0px rgba(182, 182, 182, 0.575);
+}
+
+.site-header .child-two .child-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1226px;
+    height: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.site-header .child-two .child-ul em {
+    display: block;
+    width: 1px;
+    height: 140px;
+    background-color: rgb(228, 228, 228);
+}
+
+.site-header .child-two .child-ul .child-li {
+    width: 200px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    height: 100%;
+    text-align: center;
+}
+
+.site-header .child-two .child-ul .child-li a {
+    color: rgb(58, 58, 58);
+}
+
+.site-header .child-two .child-ul .child-li a img {
+    display: inline-block;
+    width: 160px;
+}
+
+.site-header .child-two .child-ul .child-li a h3 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.site-header .child-two .child-ul .child-li a p {
+    font-size: 10px;
+    color: orange;
+    margin-top: 6px;
+}
+
+.site-header .container .header-nav .header-li .li-a:hover {
+    color: rgb(255, 134, 53);
+    transition: .4s;
+}
+
+
+/* 搜索框---------------------------------------------------- */
+
+.site-header .container .header-search {
+    position: relative;
+    height: 50px;
+    color: #333;
+    width: 296px;
+    background-color: rgb(255, 184, 102);
+}
+
+.site-header .container .header-search:hover .header-search-input {
+    border: 1px solid #b4b4b4;
+    transition: .3s;
+}
+
+.site-header .container .header-search:hover .header-search-submit {
+    border: 1px solid #b4b4b4;
+    transition: .3s;
+}
+
+.site-header .container .header-search .header-search-input {
+    width: 245px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.site-header .container .header-search .header-search-submit {
+    width: 53px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-left: -1px;
+    outline: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.site-header .container .header-search .icon-fangdajing {
+    position: absolute;
+    top: 3px;
+    right: 12px;
+    font-size: 30px;
+    color: rgb(116, 116, 116);
+}
+
+.site-header .container .header-search .header-search-submit:hover {
+    background-color: rgb(255, 134, 53);
+    border: 1px solid rgb(255, 134, 53);
+    transition: .3s;
+}
+
+.site-header .container .header-search .header-search-submit:hover .icon-fangdajing {
+    color: white;
+}

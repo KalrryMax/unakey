@@ -1,0 +1,192 @@
+/* 导航条盒子 */
+
+.site-topbar {
+    position: relative;
+    z-index: 30;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+
+
+/* 导航条内容 */
+
+.site-topbar .container {
+    font-size: 12px;
+    color: #b0b0b0;
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* 左侧导航条 */
+
+.site-topbar .container .topbar-nav {
+    font-size: 12px;
+    color: #b0b0b0;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.site-topbar .container .topbar-nav a {
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.site-topbar .container .topbar-nav a:hover {
+    color: white;
+}
+
+.site-topbar .container .topbar-nav .topbar-download {
+    position: relative;
+}
+
+.site-topbar .container .topbar-nav .topbar-download em {
+    position: absolute;
+    bottom: 0;
+    left: 14px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #ffffff;
+    display: none;
+}
+
+.site-topbar .container .topbar-nav .topbar-download:hover em {
+    display: block;
+}
+
+.site-topbar .container .topbar-nav .topbar-download .appcode {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 40px;
+    left: -40px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px 1px #919191c0;
+    border-radius: 5px;
+}
+
+.site-topbar .container .topbar-nav .topbar-download:hover .appcode {
+    display: block;
+    color: grey;
+    text-align: center;
+}
+
+.site-topbar .container .topbar-nav .sep {
+    font-size: 12px;
+    line-height: 40px;
+    font-family: sans-serif;
+    margin: 0 .3em;
+    color: #424242;
+}
+
+
+/* 右侧注册登录 */
+
+.site-topbar .container .topbar-info {
+    font-size: 12px;
+    color: #b0b0b0;
+    position: relative;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+
+.site-topbar .container .topbar-info a {
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.site-topbar .container .topbar-info a:hover {
+    color: white;
+}
+
+.site-topbar .container .topbar-info .sep_1 {
+    font-size: 12px;
+    line-height: 40px;
+    font-family: sans-serif;
+    color: #424242;
+    margin: 0;
+}
+
+
+/* 右侧购物车 */
+
+.site-topbar .container .topbar-cart {
+    color: #b0b0b0;
+    position: relative;
+    float: right;
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    transition: all .2s;
+    font-size: 12px;
+}
+
+.site-topbar .container .topbar-cart .cart-mini {
+    font-size: 12px;
+    position: relative;
+    z-index: 32;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    background: #424242;
+}
+
+.site-topbar .container .topbar-cart .cart-mini .cart-box {
+    width: 350px;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    box-shadow: 0 5px 8px 0 rgba(41, 41, 41, 0.199);
+    display: none;
+}
+
+.site-topbar .container .topbar-cart .cart-mini .cart-box p {
+    color: rgb(88, 88, 88);
+    line-height: 100px;
+    font-size: 12px;
+}
+
+
+/* 不能写死 */
+
+.site-topbar .container .topbar-cart .cart-mini .icon-gouwuche {
+    position: absolute;
+    top: 6px;
+    left: 15px;
+}
+
+.site-topbar .container .topbar-cart .cart-mini .gouwuche {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 12px;
+}
+
+.site-topbar .container .topbar-cart .cart-mini:hover {
+    background-color: #fff;
+}
+
+.site-topbar .container .topbar-cart:hover a {
+    color: rgb(255, 134, 53);
+}
